@@ -1,0 +1,4 @@
+name: nginx
+version: 1
+home: https://github.com/Harsimran1/nginx-k8s-unprivileged
+description: Loadbalancer and router to our internal services
