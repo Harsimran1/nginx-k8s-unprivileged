@@ -1,0 +1,2 @@
+nginxConfigMapName: "nginx-config"
+replicas: 2

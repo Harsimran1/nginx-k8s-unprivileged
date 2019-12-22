@@ -5,7 +5,7 @@ metadata:
   labels:
     app: nginx
 spec:
-  replicas: 3
+  replicas: {{ .Values.replicas }}
   selector:
     matchLabels:
       app: nginx
@@ -26,4 +26,4 @@ spec:
       volumes:
         - name: nginx-config
           configMap:
-            name: nginx-configmap
+            name: {{ .Values.nginxConfigMapName }}
